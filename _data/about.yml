@@ -1,0 +1,16 @@
+---
+  street:    "Suite 3, 17 Keer St"
+  suburb:    "Fitzroy"
+  post_code: "3065"
+  state:     "Victoria"
+  country:   "Australia"
+  email:     "info@kibu.com.au"
+  people:
+    -
+      name:   "Thomas Mulvaney"
+      selfie: "placehold.it/200x200"
+      email:  "mulvaney@kibu.com.au"
+    -
+      name:   "Thomas Crowley"
+      selfie: "/images/crowley.jpg"
+      email:  "crowley@kibu.com.au"
