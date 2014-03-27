@@ -26,6 +26,10 @@ h1 {
   margin-bottom: 40px;
 }
 
+h1 a {
+  color: #34495e;
+}
+
 a {
   color: steelblue;
 }
