@@ -27,11 +27,11 @@ h1 {
 }
 
 a {
-  color: #2c3e50;
+  color: steelblue;
 }
 
 a:hover {
-  color: #34495e;
+  color: #2c3e50;
 }
 
 .footer {
