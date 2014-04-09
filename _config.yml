@@ -1,3 +1,4 @@
 name: KIBU
 markdown: redcarpet
 pygments: true
+include: [ipsum]
