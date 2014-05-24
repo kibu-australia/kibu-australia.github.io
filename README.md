@@ -1,1 +1,1 @@
-This is the Jekyll project for kibu.com.au
+This is the Jekyll project for https://kibu.com.au
