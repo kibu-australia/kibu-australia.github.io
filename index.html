@@ -3,16 +3,11 @@ layout: default
 title:  KIBU
 ---
 
-<div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    {% for person in site.data.about.people %}
-      <div class="col-md-6">
-        <div class="box">
-          <img class="img-circle" width="160px" src="{{ person.selfie }}" alt="{{ person.name }}" style="height: 160px" />
-          <h3>{{ person.name }}</h3>
-          <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }} &#9867; </span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
