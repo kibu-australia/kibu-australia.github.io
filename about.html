@@ -4,11 +4,9 @@ title:  KIBU - About
 ---
 
 {% for person in site.data.about.people %}
-  <div class="col-md-6">
     <div class="box">
       <img class="img-circle" width="160px" src="{{ person.selfie }}" alt="{{ person.name }}" style="height: 160px" />
       <h3>{{ person.name }}</h3>
       <a href="mailto:{{ person.email }}">{{ person.email }}</a>
     </div>
-  </div>
 {% endfor %}

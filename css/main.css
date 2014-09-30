@@ -1,12 +1,14 @@
 html {
-  position: relative;
   min-height: 100%;
 }
 
 body {
-  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.25em;
+  line-height: 1.5em;
   padding: 30px 0 50px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;
+  color: #222;
 }
 
 code {
@@ -15,33 +17,13 @@ code {
 }
 
 .content {
-  font-family: 'Roboto Slab',serif;
-  font-weight: 300;
-  line-height: 1.4;
+  margin: 0 auto;
+  width: 600px;
+  word-wrap: break-word;
 }
 
-h1 {
-  font-size: 28px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-h5 {
-  font-size: 14px;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: 'Lato', sans-serif;
+.main {
+  margin-top: 30px;
 }
 
 .posts {
@@ -52,7 +34,6 @@ h1, h2, h3, h4, h5 {
 
 .post-date {
   color: #555;
-  font-size: 12px;
   margin-right: 10px;
 }
 
@@ -64,50 +45,45 @@ h1, h2, h3, h4, h5 {
 .title {
   font-weight: 400;
   text-transform: uppercase;
-  text-shadow: 2px 0px #ff9000;
-}
-
-.g {
-  color: #165E00;
-}
-
-.y {
-  color: #FFDD00;
-}
-
-.d {
-  color: #000;
-}
-
-.r {
-  color: #FF0000;
 }
 
 .link {
   text-transform: lowercase;
-  font-size: 18px;
+  text-align: right;
 }
 
 .links a {
   color: #222;
-}
-
-.links {
-  font-size: 1.8em;
+  text-decoration: none;
 }
 
 .box {
-  margin: 0 auto !important;
+  display: inline-block;
+  width: 300px;
+  max-width: 300px;
   text-align: center;
   padding-top: 30px;
 }
 
 a {
-  color: steelblue;
+  color: #2980b9;
 }
 
 a:hover {
-  color: #2c3e50;
+  color: #3498db;
+}
+
+.list-inline {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-inline li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
 }
 
 pre, code, .hljs {
