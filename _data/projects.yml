@@ -1,6 +1,8 @@
 -
   title: "Aika"
   repo:  "https://github.com/kibu-australia/aika"
+  description: Clojure time-based job scheduler
 -
   title: "Oppressor"
   repo:  "https://github.com/kibu-australia/oppressor"
+  description: Clojure HTTP resources

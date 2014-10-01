@@ -34,7 +34,11 @@ code {
   list-style-type: none;
 }
 
-.post-date {
+.posts li {
+  margin-left: 15px;
+}
+
+.post-meta {
   color: #555;
   margin-right: 10px;
 }
