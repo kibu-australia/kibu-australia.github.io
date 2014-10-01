@@ -2,7 +2,7 @@
 layout: default
 title:  KIBU
 ---
-
+<h3>Posts</h3>
 <ul class="posts">
   {% for post in site.posts %}
     <li>
@@ -10,4 +10,16 @@ title:  KIBU
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
+</ul>
+
+<h3>Open Source</h3>
+<ul class="posts">
+  {% for project in site.data.projects %}
+    <li><a href="{{ project.repo }}">{{ project.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h3>Current work</h3>
+<ul class="posts">
+  <li><a href="https://maestrodatabase.com">MAESTrO Database</a></li>
 </ul>

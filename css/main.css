@@ -56,7 +56,6 @@ code {
 
 .links a {
   color: #222;
-  text-decoration: none;
 }
 
 .box {
@@ -66,6 +65,7 @@ code {
 
 a {
   color: #2980b9;
+  text-decoration: none;
 }
 
 a:hover {
