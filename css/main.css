@@ -18,7 +18,9 @@ code {
 
 .content {
   margin: 0 auto;
-  width: 600px;
+  max-width: 750px;
+  padding-left: 15px;
+  padding-right: 15px;
   word-wrap: break-word;
 }
 
@@ -58,9 +60,6 @@ code {
 }
 
 .box {
-  display: inline-block;
-  width: 300px;
-  max-width: 300px;
   text-align: center;
   padding-top: 30px;
 }
@@ -89,4 +88,8 @@ a:hover {
 pre, code, .hljs {
   border: none !important;
   background: #f7f7f7 !important;
+}
+
+.spacer {
+  padding: 30px;
 }
