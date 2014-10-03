@@ -11,8 +11,7 @@ Scroll Spy's are helpful little widgets which give user feedback about their
 position on a page. Typically they are a fixed navbar that is always visible
 regardless of scroll position. As the user scrolls the active link list
 changes to give feedback. The ever popular Twitter Bootstrap's documentation
-is a fine example of this. As you scroll the sidebar shows your position.
-http://getbootstrap.com/components
+is a fine example of this. As you scroll the bootstrap docs the [sidebar](http://getbootstrap.com/components) shows your position.
 
 This is quite simple to create in plain clojurescript without any calls to
 external libraries like jQuery.
