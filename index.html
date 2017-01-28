@@ -1,18 +1,32 @@
----
-layout: default
-title:  KIBU
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    {% for person in site.data.about.people %}
-      <div class="col-md-6">
-        <div class="box">
-          <img class="img-circle" width="160px" src="{{ person.selfie }}" alt="{{ person.name }}" style="height: 160px" />
-          <h3>{{ person.name }}</h3>
-          <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KIBU</title>
+
+  <link rel="icon" href="favicon.png">
+  <style>
+    .container {
+      background-image: url('https://avatars2.githubusercontent.com/u/7068536?v=3&s=400');
+      height: 400px;
+      width: 400px;
+      margin: 0 auto;
+      display: block;
+      top: 50%;
+      transform: perspective(1px) translateY(50%);
+      image-rendering: crisp-edges;
+    }
+
+    .container:hover {
+      border: 1px solid pink;
+    }
+  </style>
+</head>
+
+<body>
+  <a class="container" href="https://github.com/kibu-australia"> </div>
+</body>
+</html>
